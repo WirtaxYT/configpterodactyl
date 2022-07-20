@@ -12,9 +12,6 @@ set -e
 #
 ########################################################
 
-GITHUB_STATUS_URL="https://www.githubstatus.com"
-SCRIPT_VERSION="$(get_release)"
-
 # Visual Functions #
 print_brake() {
   for ((n = 0; n < $1; n++)); do
